@@ -1,8 +1,70 @@
-<!DOCTYPE html>
+
+<!DOCTYPE>
+<html>
 <head>
-	<title>Raj Prajapati</title>
+ 	<meta charset="utf-8">
+ 	<meta name="viewport" content="width=device-width,initial-scale=1">
+ 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+ 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script type="text/javascript" src="js/main.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+<script>
+	$(document).ready(function() {
+		$("#Knowme").click(function(){
+			$("#main").hide();
+			$("#work").show();
+		});
+	});
+</script>
+
 </head>
-<body>
-	<p>Hii I am Raj Prajapati
-	Webpage is being developed stay tuned...</p>
+
+<body >
+
+<nav class="navbar">
+	<div class="navbar-header" style="border-color: white;border-radius: 2px">
+		<img src="home.png" id="home" width="50px" height="50px" onclick="index()">
+	</div>
+</nav>
+<div id="main">
+	<h1 id="H">RAJ PRAJAPATI</h1>
+	<h2>Welcome</h2><center><br>
+<p>An Algorithm geek and code lover;</p>
+<button onclick="Knowme()" id="Knowme">Know Me</button>  
+<button onclick="Knowme()">Works</button>
+<button onclick="Knowme()">Skills</button>
+<button onclick="Knowme()">Contact</button>
+
+	</center>
+</div>
+
+<div >
+	<p style="text-align: center;">follow me on Social media:
+	<a href="#" class="fa fa-facebook"></a>
+	<a href="#" class="fa fa-instagram"></a>
+	<a href="#" class="fa fa-snapchat"></a>
+	<a href="#" class="fa fa-twitter"></a>
+
+</p>
+</div>
+<div style="text-align: center"><p>&copy Raj Prajapati</p></div>
+	<article style="display: none;">
+	<h2>PROJECTS AND WORK</h2>
+	<br>
+	<div id="left">
+	<ul>
+		<li>Bank System <img src="c++.jpeg" width="60" height="60"></li>
+		<li>Appoint me <img src="android.png" width="60" height="60"></li>
+		<li>Vizible<img src="java.png" width="60" height="60"></li>
+		<li>Bank System <img src="c++.jpeg" width="60" height="60"></li>
+	</ul>	
+	</div>
+	<div id="right">
+		<br>
+		<p>These are the projects that I have worked upon.Developing platforms are specified besides their names.</p>
+		<p>Currently I am working upon Machine learning and google assistant app development using tensorflow and dialogflow.And I also aspire to work upon hardware based projects such as arduino,microcontroller,rasberry pi etc.</p>
+	</div>	
+	</article>
 </body>
