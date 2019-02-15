@@ -1,9 +1,16 @@
+<html>
+<body>
 <?php
-$action = $_GET["action"];
-$myText = $_POST["mytext"];
-
-if($action = "save") {
-  $targetFolder = "/";
-  file_put_contents($targetFolder."responses.txt", $myText);
+$name = $_POST['firstname'];
+$email = $_POST['email'];
+$subject = $_POST['subject'];
+echo $name
+if($action = 'Submit') {
+  $myfile = fopen('responses.txt', 'w') or die('Unable to open file!');
+fwrite($myfile, $firstname);
+fwrite($myfile, $email);
+fwrite($myfile, $subject);
 }
 ?>
+</body>
+</html>
