@@ -120,6 +120,10 @@ tr{
   background: #e212c3;
   color: white;
 }
+.fa-github-square{
+	background: #ffffff;
+  color: black;
+}
 input[type=text],input[type=email],textarea {
   width: 70%;
   padding: 12px;
