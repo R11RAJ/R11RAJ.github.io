@@ -34,14 +34,14 @@ ul.addEventListener('onclick', function(e) {
 var v;
 function change(v){
     if (v==1){
-      console.log(1111);
+      
       document.getElementById("about").style.display = "";
       document.getElementById("projects").style.display = "none";
       document.getElementById("skills").style.display = "none";
       document.getElementById("contact").style.display = "none";
     }
     if (v==2){
-      console.log(2222);
+
       document.getElementById("about").style.display = "none";
       document.getElementById("projects").style.display = "";
       document.getElementById("skills").style.display = "none";
