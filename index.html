@@ -143,9 +143,10 @@
     <p><i class="fa fa-google" style="font-size:24px;color:red;"></i> prajapatiraj.97@gmail.com</p>
     <p><a id="L" target="_blank" href="https://www.linkedin.com/in/raj-prajapati-b09757125/" class="fa fa-linkedin-square" style="font-size:30px;color:white;"></a><a target="_blank" href="https://www.linkedin.com/in/raj-prajapati-b09757125/">RAJ PRAJAPATI</a></p>
 </div>
+<?php require './main.php';
 <h3 style="margin-left:5%;">Feedback/Query Form</h3>
 <div class="container">
-  <form action="main.php" method="post" enctype="multipart/form-data">
+  <form action="<?= $_SERVER['PHP_SELF'];?>" method="post" enctype="multipart/form-data">
     <label style="color:white">First Name</label>
     <input type="text" id="fname" name="firstname" placeholder="Your name..">
 <br>
@@ -158,5 +159,6 @@
     <input type="submit" value="Submit" style="margin-left:10%;">
   </form>
 </div>
+
 
 </div>
