@@ -39,6 +39,16 @@
     var timer = setTimeout(function() {
         window.location='main.html'
     }, 11000);
+    window.onload=function() {
+        if (typeof (Storage) !== "undefined") {
+            if (localStorage.hitcount) {
+                localStorage.hitcount = Number(localStorage.hitcount) + 1;
+            } else {
+                localStorage.hitcount = 1;
+            }
+        }
+        console.log(localStorage.hitcount);
+    }
 </script>
 <body>
 <h1>RAJ PRAJAPATI</h1>
