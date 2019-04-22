@@ -38,7 +38,12 @@ color: white;
 a{
 	color:white;
 }
-
+#skills{
+    height: 90%;
+}
+table{
+    background: #0f0e0e;
+}
 #main-left{
 	width: 40%;
 	height: 90%;
@@ -78,8 +83,10 @@ color: #ffffff;
 .checked {
   color: orange;
 }
-#skill{
+.skill{
 	font: 20px bold green;
+    width: auto;
+    border-radius:12px;
 }
 tr{
 	height: 30px;
