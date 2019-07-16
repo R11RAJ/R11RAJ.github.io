@@ -27,9 +27,7 @@ a{
 #skills{
     height: 100%;
 }
-table{
-    background: #0f0e0e;
-}
+
 #main-left{
 	width: 100%;
 	height: 80%;
@@ -42,7 +40,7 @@ table{
 	color:red;
 }
 #profile{
-	width: 18%;
+	width: 30%;
 	height: 45%;
 	border-radius: 20px;
 }
@@ -69,21 +67,7 @@ table{
     display: flex;
     justify-content: center;
 }
-.checked {
-    color: orange;
-}
-.skill{
-	font: 20px bold green;
-    width: auto;
-    border-radius:12px;
-}
-tr{
-	height: 30px;
-}
-.star{
-	width:300px;
 
-}
 .fa {
     padding: 5px;
     font-size: 50px;
@@ -242,4 +226,13 @@ tr{
 
 .social-media-links a:hover {
     text-decoration: none;
+}
+
+.skills div ul {
+    width: 200px;
+}
+
+.skills div ul li {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
 }
