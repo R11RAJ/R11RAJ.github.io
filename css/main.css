@@ -1,36 +1,25 @@
-button{
-	shape-rendering: crispEdges;
-	background-color: #992a0f;
-	box-shadow: 5px;
-	width: 100px;
-	height: 100px;
-	margin: 20px;
-	align-content: center;
-	border-radius: 20px;
-
-}
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     background-color: #000000;
     color: white;
 }
 
 #buttons li {
-  float: left;
-  list-style: none;
-  text-align: center;
-  background-color: #000000;
-  width: 100px;
-  line-height: 60px;
-	border: 1px solid white;
+    float: left;
+    list-style: none;
+    text-align: center;
+    background-color: #000000;
+    width: 100px;
+    line-height: 60px;
+    border: 1px solid white;
 }
 #buttons li:hover{
- text-decoration: none;
- background-color:rgb(96, 94, 94);;
+    text-decoration: none;
+    background-color:rgb(96, 94, 94);;
 }
 #buttons li a:hover{
- text-decoration: none;
- color: black;
+    text-decoration: none;
+    color: black;
 }
 a{
 	color:white;
@@ -42,23 +31,18 @@ table{
     background: #0f0e0e;
 }
 #main-left{
-	width: 40%;
+	width: 100%;
 	height: 80%;
 	float: left;
     text-align: center;
-	position: fixed;
 }
-#main-right{
-	width: 60%;
-	height: 80%;
-	float: right;
-}
+
 #L:hover{
 	text-decoration: none;
 	color:red;
 }
 #profile{
-	width: 45%;
+	width: 18%;
 	height: 45%;
 	border-radius: 20px;
 }
@@ -66,7 +50,7 @@ table{
 	margin-right:10%;
 	margin-left:10%;
 }
-header{
+.header{
 	width: 100%;
 	height: 20%;
     display: flex;
@@ -74,15 +58,19 @@ header{
     align-items: center;
 }
 
-header #H {
+.header #H {
     padding: 20px 80px;
     background: #ffffff;
     color: #000000;
     border-radius: 20%;
 }
 
+.menu {
+    display: flex;
+    justify-content: center;
+}
 .checked {
-  color: orange;
+    color: orange;
 }
 .skill{
 	font: 20px bold green;
@@ -97,73 +85,53 @@ tr{
 
 }
 .fa {
-  padding: 5px;
-  font-size: 50px;
-  width: 40px;
-  border-radius: 20px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
+    padding: 5px;
+    font-size: 50px;
+    width: 40px;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
 }
 
 .fa:hover {
     opacity: 0.7;
 }
 .fa-facebook {
-  background: #3B5998;
-  color: white;
+    background: #3B5998;
+    color: white;
 }
 
 .fa-twitter {
-  background: #55ACEE;
-  color: white;
+    background: #55ACEE;
+    color: white;
 }
 
 .fa-snapchat {
-  background: #efe009;
-  color: white;
+    background: #efe009;
+    color: white;
 }
 
 .fa-instagram {
-  background: #e212c3;
-  color: white;
+    background: #e212c3;
+    color: white;
 }
 .fa-github-square{
 	background: #ffffff;
-  color: black;
-}
-input[type=text],input[type=email],textarea {
-  width: 70%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 2px;
-  margin-bottom: 6px;
-  resize: vertical;
-}
-
-input[type=submit] {
-  background-color: #4CAF50;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-	color:white;
-}
-
-input[type=submit]:hover {
-  background-color: #45a049;
+    color: black;
 }
 
 .container {
-  border-radius: 5px;
-  background-color: #0f0e0e;
-  padding: 10px;
+    border-radius: 5px;
+    background-color: #0f0e0e;
+    padding: 10px;
 	margin-right: 40%;
 	margin-left: 4%;
 	width: 800px;
+}
+
+.cv-container {
+    padding-bottom: 20px;
 }
 
 .CV {
@@ -174,17 +142,65 @@ input[type=submit]:hover {
     border-radius: 20px;
 }
 
-#main-right div {
-    margin: 0 5% 0% 5%;
-    background-color: rgba(96, 94, 94,0.6);
-    padding: 5%;
+.image{
+    display: flex;
+    justify-content: center;
 }
 
-#main-right div h3 {
+.image img {
+    border-radius: 10%;
+    padding: 20px;
+}
+
+.about h3, .projects h3, .skills h3 {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.about p {
+    padding: 0 20%;
+    text-align: justify;
+}
+
+.head {
+    padding: 50px 50px 25px 50px;
     text-align: center;
 }
 
-#skills div {
-    padding: 0;
+.head ul {
+    list-style: none;
     margin: 0;
+    padding: 0;
+}
+
+.head ul li {
+    display: inline-block;
+    line-height: 60px ;
+}
+
+.head ul li a {
+    padding: 10px 15px;
+    font-size: 25px;
+}
+
+.head ul li:hover{
+    text-decoration: none;
+    background-color: #ffffff;;
+}
+.head ul li a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.projects-list {
+    padding: 10px 15%;
+}
+
+.projects-list p {
+    text-align: justify;
+}
+
+.skills div {
+    display: flex;
+    justify-content: center;
 }
