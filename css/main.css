@@ -181,7 +181,8 @@ tr{
 
 .head ul li {
     display: inline-block;
-    line-height: 60px ;
+    line-height: 60px;
+    border-radius: 25%;
 }
 
 .head ul li a {
