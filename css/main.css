@@ -40,8 +40,8 @@ a{
 	color:red;
 }
 #profile{
-	width: 30%;
-	height: 45%;
+	width: 20%;
+	height: 50%;
 	border-radius: 20px;
 }
 #small-text{
@@ -116,6 +116,23 @@ a{
 
 .cv-container {
     padding-bottom: 20px;
+}
+.yt-container {
+    padding: 20px;
+}
+
+.YL {
+    padding: 15px 25px;
+    background-color: #edfaf7;
+    color: #000;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.YL:hover {
+    color: #ffffff;
+    background-color: green;
+    text-decoration: none;
 }
 
 .CV {
