@@ -1,4 +1,5 @@
 # Raj Prajapati | Personal Blog
+# R11Raj.github.io
 
 Hello Folks
 
@@ -6,10 +7,8 @@ Welcome to my Personal Blog website's repository.
 
 Here are some screenshots of the website :
 
-![Screenshot 1](https://github.com/rajr11/rajr11.github.io/assets/screenshots/1.png?raw=true)
+<img src="https://github.com/rajr11/RajR11.github.io/blob/master/assets/screenshots/1.png"  width="480" height="240">&nbsp;&nbsp; <br>
+<img src="https://github.com/rajr11/RajR11.github.io/blob/master/assets/screenshots/2.png" width="480" height="240">
 
-![Screenshot 2](https://github.com/rajr11/rajr11.github.io/assets/screenshots/2.png?raw=true)
-
-![Screenshot 3](https://github.com/rajr11/rajr11.github.io/assets/screenshots/3.png?raw=true)
-
-![Screenshot 4](https://github.com/rajr11/rajr11.github.io/assets/screenshots/4.png?raw=true)
+<img src="https://github.com/rajr11/RajR11.github.io/blob/master/assets/screenshots/3.png"  width="480" height="240">&nbsp;&nbsp;
+<img src="https://github.com/rajr11/RajR11.github.io/blob/master/assets/screenshots/4.png" width="480" height="240">
