@@ -55,9 +55,9 @@ function getData(a){
 	
 	const projectLink = {
 					"diabetesPredictor":"https://diabetes-prediction-using-ml.herokuapp.com/",
-					"articleClassifier":"https://github.com/rajr11/Article-Classifier",
-					"cellularAutomata":"https://github.com/rajr11/Implementation-of-Cellular-Automata-using-CUDA-",
-					"blogSystem":"https://github.com/rajr11/blog-system",
+					"articleClassifier":"https://github.com/R11Raj/Article-Classifier",
+					"cellularAutomata":"https://github.com/R11Raj/Implementation-of-Cellular-Automata-using-CUDA-",
+					"blogSystem":"https://github.com/R11Raj/blog-system",
 					"apzaad":"",
 					"coder":"https://assistant.google.com/services/a/uid/0000004690b3d155",
 					"vizible":"https://github.com/malgamves/Vizible",
