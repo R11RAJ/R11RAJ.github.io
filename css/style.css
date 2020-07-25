@@ -2,6 +2,7 @@ body {
     margin:0;
     display:block;
     font-family: "Space Mono","Ariel","Serif";
+    background-color: orange;
 }
 
 .example::-webkit-scrollbar {
@@ -22,6 +23,21 @@ body {
     color: white;
     border-right: 2px solid;
 }
+
+@media only screen and (max-width: 600px) {
+    .left-container {
+      width:100%;
+      position: relative;
+    }
+    .right-container {
+        width:100% !important;
+        /* position: relative; */
+    }
+    .project-flex {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+  }
 
 .right-container {
     width: 65%;
@@ -223,6 +239,10 @@ body {
     font-weight: bold;
     padding-top: 5%;
     padding-bottom: 5%;
+}
+
+.experience-container {
+    background-color: white;
 }
 
 .experience-container ,.education-container {
